@@ -1,5 +1,6 @@
 # Videoz
 A test video plugin for nativescript and background http uploading android application
+![alt text](https://res.cloudinary.com/zlayit/image/upload/c_scale,h_617,w_320/a_0/v1572519286/ns_video_upload_uyktjd.gif "Video upload via BGHttp")
 
 ## Get started
 Clone repository and cd into the root directory via command line or terminal 
