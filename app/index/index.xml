@@ -6,7 +6,7 @@
 
     <GridLayout class="p-20 video-wrapper" columns="auto", row="auto,auto">
         <StackLayout row="0" class="p-20">
-            <GridLayout rows="*" columns="*" backgroundColor="#ffffff">
+            <GridLayout rows="*" columns="*" backgroundColor="#f4f4f4">
                 <Video:Video id="nativeVideoPlayer" controls="true" loop="false" autoplay="true" height="280" src="https://res.cloudinary.com/zlayit/video/upload/v1572513981/videos/test_si4dzr.mp4" row="0" colSpan="2"/>
             </GridLayout>
         </StackLayout>
