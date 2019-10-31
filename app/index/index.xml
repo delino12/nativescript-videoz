@@ -1,0 +1,17 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page" xmlns:Video="nativescript-exoplayer">
+    <Page.actionBar>
+        <ActionBar title="VideoZ" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <GridLayout class="p-20 video-wrapper" columns="auto", row="auto,auto">
+        <StackLayout row="0" class="p-20">
+            <GridLayout rows="*" columns="*" backgroundColor="#ffffff">
+                <Video:Video id="nativeVideoPlayer" controls="true" loop="false" autoplay="true" height="280" src="https://res.cloudinary.com/zlayit/video/upload/v1572513981/videos/test_si4dzr.mp4" row="0" colSpan="2"/>
+            </GridLayout>
+        </StackLayout>
+        <StackLayout row="1" class="p-20">
+            <Button text="click here to upload video" tap="uploadVideo"></Button>
+        </StackLayout>
+    </GridLayout>
+</Page>
